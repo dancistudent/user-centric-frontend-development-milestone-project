@@ -5,6 +5,7 @@
 
 header {
     margin: 0;
+    width: 100%;
 }
 
 .header-menu {
@@ -36,7 +37,32 @@ header {
     background-color: #eee2e3;
 }
 
+a:link {
+    text-decoration: none;
+    color:#eee0e0;
+}
 
+a:visited {
+    text-decoration: none;
+    color:#d84e4e;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#eee0e0;
+}
+
+a:active {
+    text-decoration: none;
+    color:#eee0e0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
 
 .footer-menu {
     font-size: 25px;
